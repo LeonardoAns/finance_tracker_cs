@@ -1,0 +1,17 @@
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\bin\Debug\net8.0\Finance.Infrastructure.deps.json
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\bin\Debug\net8.0\Finance.Infrastructure.runtimeconfig.json
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\bin\Debug\net8.0\Finance.Infrastructure.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\bin\Debug\net8.0\Finance.Infrastructure.pdb
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\bin\Debug\net8.0\Finance.Domain.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\bin\Debug\net8.0\Finance.Domain.pdb
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.AssemblyInfo.cs
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance..7CAD6358.Up2Date
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\refint\Finance.Infrastructure.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.pdb
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.genruntimeconfig.cache
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\ref\Finance.Infrastructure.dll
