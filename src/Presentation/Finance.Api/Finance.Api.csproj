@@ -17,8 +17,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\Finance.Application\Finance.Application.csproj" />
+        <ProjectReference Include="..\..\..\src\Application\Finance.Application\Finance.Application.csproj" />
+      <ProjectReference Include="..\..\Application\Finance.Application\Finance.Application.csproj" />
       <ProjectReference Include="..\..\Persistence\Finance.Infrastructure\Finance.Infrastructure.csproj" />
+      <ProjectReference Include="..\Finance.Communication\Finance.Communication.csproj" />
     </ItemGroup>
 
 </Project>

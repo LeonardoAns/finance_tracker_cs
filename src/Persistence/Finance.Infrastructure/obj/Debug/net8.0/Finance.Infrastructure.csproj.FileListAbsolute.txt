@@ -9,6 +9,7 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructu
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.AssemblyInfo.cs
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.sourcelink.json
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance..7CAD6358.Up2Date
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\Finance.Infrastructure.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Persistence\Finance.Infrastructure\obj\Debug\net8.0\refint\Finance.Infrastructure.dll

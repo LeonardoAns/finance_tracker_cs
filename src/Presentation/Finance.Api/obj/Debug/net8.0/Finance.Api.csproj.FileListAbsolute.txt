@@ -6,6 +6,7 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Deb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Api.runtimeconfig.json
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Api.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Api.pdb
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -84,9 +85,13 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Deb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Application.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Communication.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Domain.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Infrastructure.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Application.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Infrastructure.pdb
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Communication.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Domain.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.csproj.AssemblyReference.cache
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.GeneratedMSBuildEditorConfig.editorconfig
@@ -95,6 +100,7 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Deb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.csproj.CoreCompileInputs.cache
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.sourcelink.json
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\scopedcss\bundle\Finance.Api.styles.css
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\staticwebassets.development.json
@@ -111,8 +117,3 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Deb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.genruntimeconfig.cache
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\ref\Finance.Api.dll
-C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Application.dll
-C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Communication.dll
-C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Application.pdb
-C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Communication.pdb

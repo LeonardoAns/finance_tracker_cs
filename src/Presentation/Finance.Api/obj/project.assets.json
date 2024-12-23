@@ -2871,13 +2871,13 @@
     },
     "Finance.Application/1.0.0": {
       "type": "project",
-      "path": "../../../Finance.Application/Finance.Application.csproj",
-      "msbuildProject": "../../../Finance.Application/Finance.Application.csproj"
+      "path": "../../Application/Finance.Application/Finance.Application.csproj",
+      "msbuildProject": "../../Application/Finance.Application/Finance.Application.csproj"
     },
     "Finance.Communication/1.0.0": {
       "type": "project",
-      "path": "../../../Finance.Communication/Finance.Communication.csproj",
-      "msbuildProject": "../../../Finance.Communication/Finance.Communication.csproj"
+      "path": "../Finance.Communication/Finance.Communication.csproj",
+      "msbuildProject": "../Finance.Communication/Finance.Communication.csproj"
     },
     "Finance.Domain/1.0.0": {
       "type": "project",
@@ -2893,6 +2893,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Finance.Application >= 1.0.0",
+      "Finance.Communication >= 1.0.0",
       "Finance.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.4",
@@ -2932,11 +2933,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\Finance.Application\\Finance.Application.csproj": {
-              "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\Finance.Application\\Finance.Application.csproj"
+            "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Application\\Finance.Application.csproj": {
+              "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Application\\Finance.Application.csproj"
+            },
+            "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Application\\Finance.Application.csproj": {
+              "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Application\\Finance.Application.csproj"
             },
             "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Persistence\\Finance.Infrastructure\\Finance.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Persistence\\Finance.Infrastructure\\Finance.Infrastructure.csproj"
+            },
+            "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Presentation\\Finance.Communication\\Finance.Communication.csproj": {
+              "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Presentation\\Finance.Communication\\Finance.Communication.csproj"
             }
           }
         }

@@ -5,6 +5,7 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Core\Finance.Domain\obj\Debug\ne
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Core\Finance.Domain\obj\Debug\net8.0\Finance.Domain.AssemblyInfoInputs.cache
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Core\Finance.Domain\obj\Debug\net8.0\Finance.Domain.AssemblyInfo.cs
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Core\Finance.Domain\obj\Debug\net8.0\Finance.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Core\Finance.Domain\obj\Debug\net8.0\Finance.Domain.sourcelink.json
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Core\Finance.Domain\obj\Debug\net8.0\Finance.Domain.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Core\Finance.Domain\obj\Debug\net8.0\refint\Finance.Domain.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Core\Finance.Domain\obj\Debug\net8.0\Finance.Domain.pdb

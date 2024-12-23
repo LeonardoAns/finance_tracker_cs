@@ -9,6 +9,7 @@
       "Finance.Api/1.0.0": {
         "dependencies": {
           "Finance.Application": "1.0.0",
+          "Finance.Communication": "1.0.0",
           "Finance.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.11",
           "Microsoft.EntityFrameworkCore.Design": "8.0.4",

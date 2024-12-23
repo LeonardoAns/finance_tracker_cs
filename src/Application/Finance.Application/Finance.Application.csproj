@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="IUseCases\Expense\" />
+        <Folder Include="UseCases\Expense\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Corrigido o caminho das referências -->
+        <ProjectReference Include="..\..\Core\Finance.Domain\Finance.Domain.csproj" />
+        <ProjectReference Include="..\..\Presentation\Finance.Communication\Finance.Communication.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="13.0.1" />
+    </ItemGroup>
+
+</Project>

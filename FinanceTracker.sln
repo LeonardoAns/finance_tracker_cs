@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{65C52CCB-F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{B523F137-10C5-4A9B-976D-DBDBB91146A8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DBE689EB-0AF0-4B0A-9613-E04670E7C8C9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "src\Application\Finance.Application\Finance.Application.csproj", "{DBE689EB-0AF0-4B0A-9613-E04670E7C8C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{50C6936E-40D2-4781-B60E-5DE9E7D7630B}"
 EndProject
@@ -18,9 +18,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Domain", "src\Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Api", "src\Presentation\Finance.Api\Finance.Api.csproj", "{FF504045-689A-4229-BABF-E1D9756B28BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Application", "Finance.Application\Finance.Application.csproj", "{3ACA688D-EC04-4018-AC4A-A41101637B02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Application", "src\Application\Finance.Application\Finance.Application.csproj", "{3ACA688D-EC04-4018-AC4A-A41101637B02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Communication", "Finance.Communication\Finance.Communication.csproj", "{045E5F2C-0151-4EC4-9358-51F8AD3EE734}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Communication", "src\Presentation\Finance.Communication\Finance.Communication.csproj", "{045E5F2C-0151-4EC4-9358-51F8AD3EE734}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
