@@ -367,7 +367,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Core\\Finance.Domain\\Finance.Domain.csproj": {
+                "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Core\\Finance.Domain\\Finance.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -2,6 +2,8 @@ using AutoMapper;
 using Domain.Entities;
 using Finance.Communication.Category.Request;
 using Finance.Communication.Category.Response;
+using Finance.Communication.Expense.Request;
+using Finance.Communication.Expense.Response;
 
 namespace Finance.Application.AutoMapping;
 
@@ -15,9 +17,12 @@ public class AutoMappingConfig : Profile{
     private void RequestToEntity(){
         CreateMap<CategoryRequestJson, Category>()
             .ForMember(dest => dest.Expenses, opt => opt.Ignore());
+
+        CreateMap<ExpenseRequestJson, Expense>();
     }
 
     private void EntityToResponse(){
         CreateMap<Category, CategoryResponseJson>();
+        CreateMap<Expense, ExpenseResponseJson>();
     }
 }

@@ -29,7 +29,7 @@ public class ExpenseRepository : IExpenseRepository {
         return await _dbContext.Expenses.FindAsync(id);
     }
 
-    public async Task UpdateAsync(long id, Expense expense){
+    public async Task UpdateAsync(Expense expense){
         _dbContext.Expenses.Update(expense);
     }
 }

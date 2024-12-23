@@ -7,11 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="IUseCases\Expense\" />
-        <Folder Include="UseCases\Expense\" />
-    </ItemGroup>
-
-    <ItemGroup>
         <!-- Corrigido o caminho das referências -->
         <ProjectReference Include="..\..\Core\Finance.Domain\Finance.Domain.csproj" />
         <ProjectReference Include="..\..\Presentation\Finance.Communication\Finance.Communication.csproj" />
