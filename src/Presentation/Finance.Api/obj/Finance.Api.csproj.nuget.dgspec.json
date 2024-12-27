@@ -33,8 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Exception\\Finance.Exception\\Finance.Exception.csproj": {
+                "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Exception\\Finance.Exception\\Finance.Exception.csproj"
+              },
               "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Core\\Finance.Domain\\Finance.Domain.csproj": {
                 "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Core\\Finance.Domain\\Finance.Domain.csproj"
+              },
+              "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Persistence\\Finance.Infrastructure\\Finance.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Persistence\\Finance.Infrastructure\\Finance.Infrastructure.csproj"
               },
               "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Presentation\\Finance.Communication\\Finance.Communication.csproj": {
                 "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Presentation\\Finance.Communication\\Finance.Communication.csproj"
@@ -60,6 +66,93 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "brevo_csharp": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Exception\\Finance.Exception\\Finance.Exception.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Exception\\Finance.Exception\\Finance.Exception.csproj",
+        "projectName": "Finance.Exception",
+        "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Exception\\Finance.Exception\\Finance.Exception.csproj",
+        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Exception\\Finance.Exception\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Presentation\\Finance.Communication\\Finance.Communication.csproj": {
+                "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Presentation\\Finance.Communication\\Finance.Communication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
             }
           },
           "imports": [
@@ -197,6 +290,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -220,6 +325,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
             }
           },
           "imports": [
@@ -276,6 +385,9 @@
               },
               "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Application\\Finance.Application.csproj": {
                 "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Application\\Finance.Application.csproj"
+              },
+              "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Exception\\Finance.Exception\\Finance.Exception.csproj": {
+                "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Application\\Finance.Exception\\Finance.Exception\\Finance.Exception.csproj"
               },
               "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Persistence\\Finance.Infrastructure\\Finance.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Leonardo\\Desktop\\C#\\FinanceTracker\\src\\Persistence\\Finance.Infrastructure\\Finance.Infrastructure.csproj"

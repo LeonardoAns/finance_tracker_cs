@@ -17,16 +17,20 @@ public class CategoryRepository : ICategoryRepository {
         await _dbContext.Categories.AddAsync(category);
     }
 
-    public async Task<List<Category>> GetAllAsync(){
-        return await _dbContext.Categories.AsNoTracking().ToListAsync();
+    public async Task<List<Category>> GetAllAsync(long accountHolderId){
+        return await _dbContext.Categories.AsNoTracking().
+            Where(category => category.AccountHolderId == accountHolderId)
+            .ToListAsync();
+        
     }
 
     public async Task DeleteAsync(Category category){
          _dbContext.Categories.Remove(category);
     }
 
-    public async Task<Category?> FindByIdAsync(long id){
-        return await _dbContext.Categories.FindAsync(id);
+    public async Task<Category?> FindByIdAsync(long id, long accountHolderId){
+        return await _dbContext.Categories.AsNoTracking()
+            .FirstOrDefaultAsync(c => c.Id == id && c.AccountHolderId == accountHolderId);
     }
 
     public async Task UpdateAsync(Category category){

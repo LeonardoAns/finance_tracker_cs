@@ -1,8 +1,16 @@
+using Domain.Security;
 using Finance.Application.AutoMapping;
+using Finance.Application.IUseCases.AccountHolder;
 using Finance.Application.IUseCases.Category;
+using Finance.Application.IUseCases.Email;
 using Finance.Application.IUseCases.Expense;
+using Finance.Application.UseCases.AccountHolder;
 using Finance.Application.UseCases.Category;
+using Finance.Application.UseCases.Email;
 using Finance.Application.UseCases.Expense;
+using Finance.Communication.AccountHolder.Request;
+using Infrastructure.Security.Criptography;
+using Infrastructure.Security.Tokens;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Finance.Application;
@@ -28,6 +36,18 @@ public static class DependencyInjectionExtension {
         services.AddScoped<IGetExpenseByIdUseCase, GetExpenseByIdUseCase>();
         services.AddScoped<IUpdateExpenseUseCase, UpdateExpenseUseCase>();
         services.AddScoped<IDeleteExpenseUseCase, DeleteExpenseUseCase>();
+        
+        //Email
+        services.AddScoped<ISendVerificationEmailUseCase, SendVerificationEmailUseCase>();
+        
+        //Account Holder
+        services.AddScoped<IRegisterAccountHolderUseCase, RegisterAccountHolderUseCase>();
+        services.AddScoped<IVerifyAccountHolderUseCase, VerifyAccountHolderUseCase>();
+        services.AddScoped<ILoginAccountHolderUseCase, LoginAccountHolderUseCase>();
+        
+        //Security
+        services.AddScoped<IGetAuthContextUseCase, GetAuthContextUseCase>();
+
     }
 
     public static void AddAutoMapper(IServiceCollection service){

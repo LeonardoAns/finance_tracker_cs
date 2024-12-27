@@ -20,7 +20,9 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Application.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Communication.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Domain.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Infrastructure.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Domain.pdb
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Infrastructure.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Communication.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\obj\Debug\net8.0\Finance.Application.csproj.AssemblyReference.cache
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\obj\Debug\net8.0\Finance.Application.GeneratedMSBuildEditorConfig.editorconfig
@@ -33,3 +35,5 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\obj\Debug\net8.0\refint\Finance.Application.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\obj\Debug\net8.0\Finance.Application.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\obj\Debug\net8.0\ref\Finance.Application.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Exception.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Application\Finance.Application\bin\Debug\net8.0\Finance.Exception.pdb

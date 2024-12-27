@@ -1,5 +1,7 @@
 using AutoMapper;
 using Domain.Entities;
+using Finance.Communication.AccountHolder;
+using Finance.Communication.AccountHolder.Request;
 using Finance.Communication.Category.Request;
 using Finance.Communication.Category.Response;
 using Finance.Communication.Expense.Request;
@@ -19,6 +21,7 @@ public class AutoMappingConfig : Profile{
             .ForMember(dest => dest.Expenses, opt => opt.Ignore());
 
         CreateMap<ExpenseRequestJson, Expense>();
+        CreateMap<AccountHolderRequestJson, AccountHolder>();
     }
 
     private void EntityToResponse(){

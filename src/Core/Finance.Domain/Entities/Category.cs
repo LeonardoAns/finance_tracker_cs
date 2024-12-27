@@ -5,6 +5,8 @@ public class Category {
     public string Name{ get; set; }
     public string Description{ get; set; }
     public ICollection<Expense> Expenses{ get; set; } = new List<Expense>();
+    public long AccountHolderId{ get; set; }
+    public AccountHolder AccountHolder{ get; set; }
 
     public Category(){
     }

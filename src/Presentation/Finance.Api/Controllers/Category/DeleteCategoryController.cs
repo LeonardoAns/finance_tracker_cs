@@ -1,5 +1,6 @@
 
 using Finance.Application.IUseCases.Category;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers.Category;
@@ -7,6 +8,7 @@ namespace Api.Controllers.Category;
 
 [Route("categories")]
 [ApiController]
+[Authorize]
 public class DeleteCategoryController : ControllerBase{
 
     [HttpDelete]

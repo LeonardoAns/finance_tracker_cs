@@ -1,11 +1,13 @@
 using Finance.Application.IUseCases.Category;
 using Finance.Communication.Category.Request;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers.Category; 
 
 [Route("categories")]
 [ApiController]
+[Authorize]
 public class RegisterCatgoryController : ControllerBase{
 
     [HttpPost]

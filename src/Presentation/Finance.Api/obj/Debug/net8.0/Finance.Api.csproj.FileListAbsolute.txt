@@ -7,7 +7,13 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Deb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Api.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Api.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\brevo_csharp.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\FubarCoder.RestSharp.Portable.Core.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\FubarCoder.RestSharp.Portable.HttpClient.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\JsonSubTypes.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -20,9 +26,16 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Deb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -33,6 +46,7 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Deb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -117,3 +131,6 @@ C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Deb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.pdb
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\Finance.Api.genruntimeconfig.cache
 C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\obj\Debug\net8.0\ref\Finance.Api.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Exception.dll
+C:\Users\Leonardo\Desktop\C#\FinanceTracker\src\Presentation\Finance.Api\bin\Debug\net8.0\Finance.Exception.pdb

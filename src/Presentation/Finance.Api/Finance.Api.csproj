@@ -19,6 +19,7 @@
     <ItemGroup>
         <ProjectReference Include="..\..\..\src\Application\Finance.Application\Finance.Application.csproj" />
       <ProjectReference Include="..\..\Application\Finance.Application\Finance.Application.csproj" />
+      <ProjectReference Include="..\..\Application\Finance.Exception\Finance.Exception\Finance.Exception.csproj" />
       <ProjectReference Include="..\..\Persistence\Finance.Infrastructure\Finance.Infrastructure.csproj" />
       <ProjectReference Include="..\Finance.Communication\Finance.Communication.csproj" />
     </ItemGroup>

@@ -1,10 +1,12 @@
 using Finance.Application.IUseCases.Expense;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers.Expense;
 
 [Route("expenses")]
 [ApiController]
+[Authorize]
 public class DeleteExpenseController : ControllerBase{
 
     [HttpDelete]

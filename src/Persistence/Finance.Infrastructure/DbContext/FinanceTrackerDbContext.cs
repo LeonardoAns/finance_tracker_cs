@@ -8,6 +8,7 @@ public class FinanceTrackerDbContext : DbContext
 {
     public DbSet<Category> Categories { get; set; }
     public DbSet<Expense> Expenses { get; set; }
+    public DbSet<AccountHolder> AccountHolders{ get; set; }
 
     public FinanceTrackerDbContext(DbContextOptions<FinanceTrackerDbContext> options) 
         : base(options)

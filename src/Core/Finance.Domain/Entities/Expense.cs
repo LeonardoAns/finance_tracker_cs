@@ -11,6 +11,10 @@ public class Expense {
     public PaymentMethod PaymentMethod{ get; set; }
     public long CategoryId{ get; set; }
     public Category Category{ get; set; }
+    
+    public long AccountHolderId{ get; set; }
+    
+    public AccountHolder AccountHolder{ get; set; }
 
     public Expense(){
     }

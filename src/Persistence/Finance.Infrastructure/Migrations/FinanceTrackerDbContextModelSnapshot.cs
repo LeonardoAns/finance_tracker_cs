@@ -22,6 +22,44 @@ namespace Infrastructure.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
+            modelBuilder.Entity("Domain.Entities.AccountHolder", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Roles")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("VerificationCode")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AccountHolders");
+                });
+
             modelBuilder.Entity("Domain.Entities.Category", b =>
                 {
                     b.Property<long>("Id")
@@ -29,6 +67,9 @@ namespace Infrastructure.Migrations
                         .HasColumnType("bigint");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("AccountHolderId")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -40,6 +81,8 @@ namespace Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AccountHolderId");
+
                     b.ToTable("Categories");
                 });
 
@@ -50,6 +93,9 @@ namespace Infrastructure.Migrations
                         .HasColumnType("bigint");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("AccountHolderId")
+                        .HasColumnType("bigint");
 
                     b.Property<long>("CategoryId")
                         .HasColumnType("bigint");
@@ -69,18 +115,39 @@ namespace Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AccountHolderId");
+
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Expenses");
                 });
 
+            modelBuilder.Entity("Domain.Entities.Category", b =>
+                {
+                    b.HasOne("Domain.Entities.AccountHolder", "AccountHolder")
+                        .WithMany()
+                        .HasForeignKey("AccountHolderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AccountHolder");
+                });
+
             modelBuilder.Entity("Domain.Entities.Expense", b =>
                 {
+                    b.HasOne("Domain.Entities.AccountHolder", "AccountHolder")
+                        .WithMany()
+                        .HasForeignKey("AccountHolderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Domain.Entities.Category", "Category")
                         .WithMany("Expenses")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("AccountHolder");
 
                     b.Navigation("Category");
                 });

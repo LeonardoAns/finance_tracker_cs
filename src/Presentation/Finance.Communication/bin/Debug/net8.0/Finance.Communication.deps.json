@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Finance.Communication/1.0.0": {
+        "dependencies": {
+          "Finance.Domain": "1.0.0"
+        },
         "runtime": {
           "Finance.Communication.dll": {}
+        }
+      },
+      "Finance.Domain/1.0.0": {
+        "runtime": {
+          "Finance.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "Finance.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Finance.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

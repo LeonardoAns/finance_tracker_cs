@@ -17,16 +17,19 @@ public class ExpenseRepository : IExpenseRepository {
         await _dbContext.Expenses.AddAsync(expense);
     }
 
-    public async Task<List<Expense>> GetAllAsync(){
-        return await _dbContext.Expenses.AsNoTracking().ToListAsync();
+    public async Task<List<Expense>> GetAllAsync(long accountHolderId){
+        return await _dbContext.Expenses.AsNoTracking().
+            Where(expense => expense.AccountHolderId == accountHolderId)
+            .ToListAsync();    
     }
 
     public async Task DeleteAsync(Expense expense){
         _dbContext.Expenses.Remove(expense);
     }
 
-    public async Task<Expense?> FindByIdAsync(long id){
-        return await _dbContext.Expenses.FindAsync(id);
+    public async Task<Expense?> FindByIdAsync(long id, long accountHolderId){
+        return await _dbContext.Expenses.AsNoTracking()
+            .FirstOrDefaultAsync(e => e.Id == id && e.AccountHolderId == accountHolderId);    
     }
 
     public async Task UpdateAsync(Expense expense){

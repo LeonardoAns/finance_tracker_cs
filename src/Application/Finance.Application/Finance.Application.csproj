@@ -9,11 +9,16 @@
     <ItemGroup>
         <!-- Corrigido o caminho das referências -->
         <ProjectReference Include="..\..\Core\Finance.Domain\Finance.Domain.csproj" />
+        <ProjectReference Include="..\..\Persistence\Finance.Infrastructure\Finance.Infrastructure.csproj" />
         <ProjectReference Include="..\..\Presentation\Finance.Communication\Finance.Communication.csproj" />
+        <ProjectReference Include="..\Finance.Exception\Finance.Exception\Finance.Exception.csproj" />
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="AutoMapper" Version="13.0.1" />
+        <PackageReference Include="brevo_csharp" Version="1.0.0" />
+        <PackageReference Include="FluentValidation" Version="11.11.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
     </ItemGroup>
 
 </Project>
