@@ -39,6 +39,7 @@ public static class DependencyInjectionExtension {
         
         //Email
         services.AddScoped<ISendVerificationEmailUseCase, SendVerificationEmailUseCase>();
+        services.AddScoped<ISendWelcomeEmailUseCase, SendWelcomeEmailUseCase>();
         
         //Account Holder
         services.AddScoped<IRegisterAccountHolderUseCase, RegisterAccountHolderUseCase>();

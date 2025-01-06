@@ -63,11 +63,10 @@ namespace Finance.Application.UseCases.Email;
                     mailMessage.To.Add(toAddress); 
 
                     await smtpClient.SendMailAsync(mailMessage);
-                    Console.WriteLine("Email enviado com sucesso!");
                 }
             }
             catch (System.Exception e){
-                throw new FormatException("Erro while send email");
+                throw new FormatException("Error while send email");
             }
         }
     }
